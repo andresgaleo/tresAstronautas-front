@@ -1,0 +1,18 @@
+.cabin {
+    height: 139px;
+    width: 19%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: #ff4747;
+    margin-top: -39%;
+    margin-left: 48%;
+}
+
+.counter {
+    font-size: 50rem;
+    vertical-align: middle;
+    color: #ff4747;
+    font-size: 100px;
+}

@@ -1,0 +1,17 @@
+<!-- ¡Créditos al autor por la imagen del cohete! <a href='http://dryicons.com/icon/spaceship-icon-5255'> Icon by Dryicons </a> -->
+<div class="space">
+  <section class="status">
+      <h3>¡Planeta 
+      <select name="ddl_planets" [(ngModel)]="namePlanet" (change)="searchPlanetForName()">
+        <option>Seleccione una opción</option>
+        <option *ngFor="let planet of planets" value="{{planet}}">{{planet}}</option>
+      </select> 
+      avistado a <span #degress>Y</span> grados!</h3>
+  </section>
+  <section class="rocket">
+      
+  </section>
+  <div class="tresA">
+      <img src="/assets/logo.png" alt="">
+  </div>
+</div>
